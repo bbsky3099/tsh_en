@@ -22,22 +22,38 @@
     margin:0 10px 10px 0; display:inline;} .ScrollBox2{ width:400px;height:116px;overflow:hidden;float:left}
     .ScrollBox2{ height:116px;} .ScrollBox2 ul{ float:left;} .ScrollBox2 li{
     width:130px;height:116px; float:left;}
+</style><style>
+  .boxed-link {
+    display: inline-block;
+
+    border: 1px solid #000;
+    background-color: #f8f8f8;
+    color: #000;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 3px;
+  }
+
+  /* 鼠标悬停效果 */
+  .boxed-link:hover {
+    background-color: #e0e0e0;
+  }
 </style>
 <body>
 <div class="center">
     <!--top-->
-    <div class="top"><div style="text-align:right; padding-right: 1%;align-items: flex-end;"><H3>Language :<a href="https://bbsky3099.github.io/tsh/" title="Chinese">&nbsp;&nbsp;Chinese&nbsp;&nbsp;</a>||<a href="#" title="English">&nbsp;&nbsp; English &nbsp;&nbsp;</a></div>
+    <div class="top"> <div class="logo" id="">
+            <a href="index.html" title="Shenzhen Tengshenghui Technology Co., Ltd.">
+                <img src="skins/ico/logo.png" width="40" height="40" alt="Shenzhen Tengshenghui Technology Co., Ltd."
+                class="png" />
+            </a>
+        </div><div style="text-align:right; padding-right: 1%;align-items: flex-end;"><H4><a href="https://bbsky3099.github.io/tsh/" title="Chinese" class="boxed-link">Chinese</a>&nbsp;&nbsp;<a href="#" title="English" class="boxed-link"> English </a></div>
         <div class="search" id="">
             <input type="text" id="txtKeywords" class="seaIn" onfocus='if(this.value == "Please enter a keyword") this.value="";'
             onblur='if(this.value == "") this.value="Please enter a keyword";' value="Please enter a keyword" />
             <input type="button" class="seaBtn" onclick="return Search()" />
         </div>
-        <div class="logo" id="">
-            <a href="index.html" title="Shenzhen Tengshenghui Technology Co., Ltd.">
-                <img src="skins/ico/logo.png" width="40" height="40" alt="Shenzhen Tengshenghui Technology Co., Ltd."
-                class="png" />
-            </a>
-        </div>
+       
     </div>
     <!--top end-->
     <!--nav-->

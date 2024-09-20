@@ -1,0 +1,51 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+html, body, div, h1, h2, h3, h4, h5, h6, ul, ol, dl, li, dt, dd, p, blockquote, pre, form, fieldset, table, th, td, span, input, textarea { margin:0; padding:0; }
+body{ background:#a2a2a2; font-size:12px; line-height:20px; padding:23px 0; color:#666}
+li, ol { list-style:none; }ins { text-decoration:none; }i, em { font-style:normal; }a { text-decoration:none; color:#666;}a:hover { cursor:pointer; text-decoration:none;}a:active{star:expression(this.onFocus=this.blur());}:focus{outline:0;}.clear { clear:both; line-height:0px; overflow:hidden; zoom:1; font-size:0px; content:'.'; }a img { border:none; }.clear { clear:both; font-size:0px; line-height:0px; }
+li.clear { float:none; width:auto; height:auto; padding:0; margin:0; }
+input{ border:0 none; padding:0px; margin:0px;}
+table { border-collapse: collapse; border-spacing: 0;}
+.pr{ position:relative;}.pa{ position:absolute;}
+.ftms{ font-family:"Microsoft YaHei"}
+/*文字靠边*/
+.tl { text-align:left!important; }.tc { text-align:center!important; }.tr { text-align:right!important; }
+/*缩进*/
+.ti2 { text-indent:2em; }
+/*字体粗细*/
+.fb { font-weight:bold; }.fn { font-weight:normal; }
+/*字体大小*/
+.f12 { font-size:12px; }.f14 { font-size:14px; }.f16{font-size:16px;}.fl{ float:left;}.fr{ float:right;}
+.mm{ margin-left:auto; margin-right:auto;}
+.bd1{ border:1px solid #ddd;}
+/*显示*/
+.dil { display:inline; }.bk { display:block !important;}.dn{ display:none;}.od { overflow:hidden }
+/**/
+/*行高*/
+.lh18 { line-height:18px; }.lh20 { line-height:20px; }.lh22 { line-height:22px; }.lh24 { line-height:24px; }.lh25 { line-height:25px; }.lh26 { line-height:26px; }.lh30 { line-height:30px; }.lh40{line-height: 40px;}
+/**/
+.nbg{ background:none !important;}.mt10{ margin-top:10px;}.mt15{ margin-top:15px;}.mt20{ margin-top:20px}.pd15{ padding:0px 15px;}
+
+.wa{ width:100%;}
+.center{ width:1000px;margin:0px auto; background:#FFFFFF;display:block;}
+
+/*整体布局*/
+.top{ height:80px; background:url(../bg/topBg.gif) repeat-x;}
+.logo{ margin:23px 0 0 33px; float:left;}
+.search{ width:161px; height:20px; background:url(../bg/searchBg.gif) no-repeat; float:right;margin:33px 22px 0 0; display:inline;}
+.seaIn{ width:138px; background:none; height:20px; line-height:20px; text-indent:10px; color:#c7c7c7; float:left;}
+.seaBtn{ width:20px ;height:20px; background:url(../bg/seach.jpeg) ;cursor:pointer; display:inline; }
+
+/*头部导航*/
+.nav{ height:30px; padding:0 0 3px 0; background-image:url(../bg/navBg.png); background-repeat:repeat-x; line-height:30px; z-index:2; position:relative;}
+.nav li{ width:16%; text-align:center; float:left; background:url(../bg/navline.gif) no-repeat right top; position:relative}
+.nav li a{ color:#fff; display:block; width:100%;}
+.nav li a:hover{ background:url(../bg/navCBg.png) repeat-x;}
+.licur a,.lih a{background:url(../bg/navCBg.png) repeat-x;}
+.secMBg{ line-height:26px; height:26px; position:absolute; left:0px; top:30px; background-image:url(../bg/bg2.png); width:100%; display:none;}
+
+.secM{ position:absolute; left:0px; top:30px; width:400px; z-index:99;display:none;}
+.secM a{ display:inline-block; margin:0 5px; float:left; width:auto !important;background:none !important;}
+.secM a:hover{ background:none !important; color:#a0bd21;}
+.footer{ padding:10px 0; border-top:1px solid #ddd; text-indent:20px; color:#666;}

@@ -1,0 +1,262 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1">
+    <title>
+        News Updates — Shenzhen Tengshenghui Technology Co., Ltd.
+    </title>
+    <link href="skins/css/public.css" rel="stylesheet" type="text/css"/>
+    <link href="skins/css/inside.css" rel="stylesheet" type="text/css"/>
+    <meta name="description" content=""/>
+    <meta name="keywords" content=""/>
+    <script type="text/javascript" src="skins/js/jquery-1.7.min.js">
+    </script>
+    <!--[if IE 6]>
+        <script type="text/javascript" src="skins/js/DD_belatedPNG.js">
+        </script>
+    <![endif]-->
+</head>
+<body>
+    <div class="center">
+        <!--top-->
+        <div class="top">
+            <div class="search" id="">
+                <input type="text" id="txtKeywords" class="seaIn" onfocus='if(this.value == "Please enter a keyword") this.value="";'
+                onblur='if(this.value == "") this.value="Please enter a keyword";' value="Please enter a keyword" />
+                <input type="button" class="seaBtn" onclick="return Search()" />
+            </div>
+            <div class="logo" id="">
+                <a href="index.html" title="Shenzhen Tengshenghui Technology Co., Ltd.">
+                    <img src="skins/ico/logo.png" width="40" height="40" alt="Shenzhen Tengshenghui Technology Co., Ltd."
+                    class="png" />
+                </a>
+            </div>
+        </div>
+        <!--top end-->
+        <!--nav-->
+        <div class="nav png">
+            <ul>
+                <li>
+                    <a href="index.html" title="Homepage">
+                        Homepage
+                    </a>
+                </li>
+                <li>
+                    <a href="content.html" title="About Us">
+                        About Us
+                    </a>
+                    <div class="secM" id="">
+                        <a href="content.html" title="Company Profile">
+                            Company Profile
+                        </a>
+                        <a href="content.html?NC=101002002" title="Organizational Structure">
+                            Organizational Structure
+                        </a>
+                        <a href="contentproduct.html" title="Production Capacity">
+                            Production Capacity
+                        </a>
+                        <a href="contentQualityManagement.html" title="Quality Management">
+                            Quality Management
+                        </a>
+                        <a href="content.html?NC=101002005" title="Corporate Culture">
+                            Corporate Culture
+                        </a>
+                        <a href="content.html?NC=101002006" title="Business Philosophy">
+                            Business Philosophy
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <a href="pmodel.html" title="Product Introduction">
+                        Product Introduction
+                    </a>
+                    <div class="secM" id="">
+                        <a href="pmodel.html" title="Precision Mold Design and Manufacturing">
+                            Precision Mold Design and Manufacturing
+                        </a>
+                        <a href="product.html" title="Precision Inspection Fixture Design and Manufacturing">
+                            Precision Inspection Fixture Design and Manufacturing
+                        </a>
+                        <a href="product1.html" title="Precision Parts Design and Manufacturing">
+                            Precision Parts Design and Manufacturing
+                        </a>
+                        <a href="product2.html" title="Precision Equipment Design and Manufacturing">
+                            Precision Equipment Design and Manufacturing
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <a href="news.html" title="News Updates">
+                        News Updates
+                    </a>
+                    <div class="secM" id="">
+                        <a href="news.html" title="Company News">
+                            Company News
+                        </a>
+                        <a href="news.html?NC=101004002" title="Industry News">
+                            Industry News
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <a href="joinus.html" title="Recruitment">
+                        Recruitment
+                    </a>
+                    <div class="secM" id="">
+                        <a href="joinus.html" title="Recruitment">
+                            Recruitment
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <a href="contactUs.html" title="Contact Us">
+                        Contact Us
+                    </a>
+                    <div class="secM" id="">
+                        <a href="contactUs.html" title="Contact Information">
+                            Contact Information
+                        </a>
+                        <a href="goway.html" title="Driving Directions">
+                            Driving Directions
+                        </a>
+                    </div>
+                </li>
+            </ul>
+            <div class="secMBg" id="">
+            </div>
+        </div>
+        <!--nav end-->
+        <script type="text/javascript">
+            function Search() {
+                var key = document.getElementById("txtKeywords").value;
+                if (key.length == 0 || key == "Please enter a keyword") {
+                    alert('Please enter a keyword!');
+                    document.getElementById("txtKeywords").focus();
+                    return false;
+                }
+                var url = "search.html?Keyword=" + key;
+                window.open(url, "_self");
+            }
+        </script>
+        <!--inban-->
+        <div class="isban">
+            <img src="UploadFiles/Images/2013/3/2013032303513906.jpg" width="1000"
+            height="230" alt="" />
+        </div>
+        <!--inban end-->
+        <!--main-->
+        <div class="ismain">
+            <div class="sideBar" id="">
+                <h4>
+                    News Updates
+                </h4>
+                <ul>
+                    <li class="fb">
+                        <a title="Company News" href="news.html">
+                            Company News
+                        </a>
+                    </li>
+                    <li>
+                        <a title="Industry News" href="news.html?NC=101004002">
+                            Industry News
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="path" id="">
+                <p>
+                    Your Current Position:
+                    <a href="index.html" title="Homepage">
+                        Homepage
+                    </a>
+                    >
+                    <a href="news.html" title="News Updates">
+                        News Updates
+                    </a>
+                    >
+                    <i>
+                        Company News
+                    </i>
+                </p>
+                <b>
+                    Company News
+                </b>
+            </div>
+            <form name="form1" method="post" action="news.html" id="form1">
+                <div>
+                    <input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="ZHOhZMY4833BpWZMqV//hg5fgXghgAnW3XYpihKGX6Sh7ncNnG7S7djvwo1BxCgLJ9nb1RcMo1VFEIV1QqJvKgh5U8uldUaamBn/tM5Fxg5aG1P33Ki/vWaA+WBpegEqZOMssk73lwi8XQSV3TbaGLKp8WwX7rxF4aFGc5s/Dv6y1NMwKK0XReNlK1dT1ysttVCJuGT1Uka4LUmVTMdJuiylfJTIJx7D7u0SiORDZNscxy4TR2IfmJ8ASWgXE1fXwJqEcEOIl+wZOFT6g6zTxF7OLBGsI0/s/ATg/sr02blEmKgdAvCUaAvx4EcSm84gZBlUsxoaFJToJGnqPdSYkpsLDhtatP0ZNJSwgWSYL5EkDNdqksSu2F028bdoouSdE+OyC8XsdNSKTs+m5Ze7KQVwUtKRjTKz97SfI73h8z6BAKC3HkqwtTYJKOtRTHI5dlMuUpFyauxrv+BbjAOcJ5ARiTXggd4pPWdKZ6t3n7tK0k0KLHGgWbrXTUeCOERTWwuhIMJ46Wex6GwIKkE2aCpCIzNNHNLuONCfKKTc8rpKYjN9FKWOhso73JFKUc2hvnFpvWzG/KmBLhzA1FjyBt6dOw8="
+                    />
+                </div>
+                <div>
+                    <input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR"
+                    value="CA8C29DA" />
+                </div>
+                <div class="container" id="Div1">
+                    <div class="news" id="Div2">
+                        <ul class="newsList">
+                        </ul>
+                        <div class="fpage" id="Div4">
+                            <div id="WebPages_pnlPages">
+                                Total 
+                                <span id="WebPages_labCount">
+                                    0
+                                </span>
+                                Items Page 
+                                <span id="WebPages_labPage">
+                                    1
+                                </span>
+                                of 
+                                <span id="WebPages_labBackPage">
+                                    1
+                                </span>
+                                Pages
+                                <a id="WebPages_lnkbtnOne" disabled="disabled" style="color:Black;color:#000000;">
+                                    First Page
+                                </a>
+                                <a id="WebPages_lnkbtnUp" disabled="disabled" style="color:Black;color:#000000;">
+                                    Previous Page
+                                </a>
+                                <a id="WebPages_lnkbtn0" disabled="disabled" class="pagescur">
+                                    1
+                                </a>
+                                <a id="WebPages_lnkbtnNext" disabled="disabled" style="color:Black;color:#000000;">
+                                    Next Page
+                                </a>
+                                <a id="WebPages_lnkbtnBack" disabled="disabled" style="color:Black;color:#000000;">
+                                    Last Page
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <!--main end-->
+        <!--footer-->
+        <div class="footer" style="text-align:center;">
+            <div>
+                <script id="ebsgovicon" src="http://szcert.ebs.org.cn/govicon.js?id=cd8d3c47-58ce-4507-bed6-1e636092774e&width=75&height=105&type=1"
+                type="text/javascript" charset="utf-8">
+                </script>
+            </div>
+            <br />
+            Copyright © 2004 - 2006 Shenzhen Tengshenghui Technology Co., Ltd.
+            <a href="https://beian.miit.gov.cn/">
+                Guangdong ICP Record No. XXXXXXXX
+            </a>
+            By
+            <a target="_blank" href="">
+                XXXXXX
+            </a>
+        </div>
+        <!--footer end-->
+    </div>
+</body>
+<script type="text/javascript" src="skins/js/common.js">
+</script>
+<!--[if IE 6]>
+    <script type="text/javascript">
+        DD_belatedPNG.fix('.png');
+    </script>
+<![endif]-->
+
+</html>

@@ -1,0 +1,57 @@
+@charset "utf-8";
+/* CSS Document */
+
+.ismain{ padding:20px 12px; width:100%; overflow:hidden; width:976px;}
+.isban{ height:230px; width:100%;margin-top:-3px; z-index:1;position:relative;}
+
+.sideBar{ width:210px; float:left;}
+.sideBar h4{ line-height:30px; background:#00488f; font-size:12px; color:#fff; text-indent:30px;}
+.sideBar li{ width:180px; padding-left:30px; line-height:30px; margin-top:2px; background:#dbdbdb url(../ico/ico4.gif) no-repeat 180px center;}
+.sideBar li a:hover{ color:#000}
+
+
+/**/
+.path{ width:740px; float:right; line-height:28px; border-bottom:1px solid #ddd;}
+.path p{ float:right;}
+.path b{ padding-left:20px; background:url(../ico/ico3.gif) no-repeat 5px center}
+.path p a,.path p i{ margin:0 5px;}
+.container{ width:740px; float:right; overflow:hidden; padding:15px 0;}
+
+/**/
+.proList{ width:100%; overflow:hidden;}
+.proList ul{ width:110%; padding:0 0 0 18px;}
+.proList li{ width:165px; height:160px; float:left; margin-right:14px; display:inline; margin-bottom:10px;}
+.proList li img{ width:165px; height:128px;}
+.proList li span{ display:block; text-align:center}
+
+.fpage{ width:100%; overflow:hidden; text-align:center}
+.fpage a,.fpage span{ margin:0 4px; display:inline-block;}
+.fpIn{ width:20px; height:18px; border:1px solid #ddd;}
+.fpBtn{ width:20px; height:18px; display:inline-block; border:1px solid #ddd; text-align:center; margin:0 2px;}
+
+/**/
+.proList2{ width:100%; overflow:hidden;}
+.proList2 ul{ width:110%; padding:0 0 0 50px;}
+.proList2 li{ width:292px; height:250px; float:left; margin-right:50px; display:inline; margin-bottom:10px;}
+.proList2 li img{ width:292px; height:220px;}
+.proList2 li span{ display:block; text-align:center}
+
+.map{ width:685px; height:379px; margin:25px; overflow:hidden; float:left}
+
+/*¹«Ë¾¶¯Ì¬*/
+.newsTop{ padding:0 20px}
+.newsTop img{ margin-right:30px; width:239px; height:158px; float:left;}
+.newsTop h4{ font-size:14px;}
+.newsTop h5{ font-size:12px; padding:0 0 10px 0;}
+.newsTop p{ height:90px;}
+.more{ padding-left:15px; background:url(../ico/ico5.gif) no-repeat left center;}
+.newsList{ padding:20px;}
+.newsList li{ line-height:30px; border-bottom:1px solid #ddd;}
+.newsList li span{ float:right;}
+
+.newsTit{ text-align:center; font-size:14px;padding:0 20px;}
+.newsDate{ font-size:12px; text-align:center; border-bottom:1px solid #ddd; line-height:30px;margin:0 20px;}
+.newsDet{ padding:20px; line-height:24px}
+
+.about{ padding:10px; line-height:24px;}
+.blue{ color:#00488f}
